@@ -3,13 +3,13 @@ $(call inherit-product, device/samsung/hllte/full_hllte.mk)
 $(call inherit-product, device/samsung/smdk5260-common/device-common.mk)
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/telephony.mk)
+$(call inherit-product, vendor/lineage/config/telephony.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := hllte
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Override build properties.
 PRODUCT_BUILD_PROP_OVERRIDES += \

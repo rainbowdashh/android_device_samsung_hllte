@@ -23,7 +23,7 @@ $(call inherit-product-if-exists, vendor/samsung/hllte/hllte-vendor.mk)
 
 # Overrides
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_hllte
+PRODUCT_NAME := lineage_hllte
 PRODUCT_DEVICE := hllte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N7505
