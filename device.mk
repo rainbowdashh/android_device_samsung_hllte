@@ -11,3 +11,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlay 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/hllte/overlay
+
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
