@@ -22,7 +22,6 @@ $(call inherit-product, device/samsung/hllte/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/hllte/hllte-vendor.mk)
 
 # Overrides
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := lineage_hllte
 PRODUCT_DEVICE := hllte
 PRODUCT_BRAND := samsung
